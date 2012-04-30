@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "lib/snippet.rb",
     "lib/snippet/any.rb",
     "lib/snippet/facebook.rb",
+    "snippet.gemspec",
     "spec/lib/snippet_spec.rb",
     "spec/spec_helper.rb"
   ]
