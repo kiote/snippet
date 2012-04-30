@@ -16,7 +16,7 @@ class Snippet
   def get_meta
     @doc = @agent.get(@uri)
 
-    Snippet::Any.get_meta(@doc)
+    Snippet::Facebook.get_meta(@doc) || Snippet::Any.get_meta(@doc)
   end
 end
 
